@@ -2,8 +2,18 @@
 
 ## JSONAPI
 
-This panage is an extended json encoder and decoder. 
+This package is an extended json encoder and decoder. 
 
 ## Installation
 
-python3 - m build
+command: pip install .
+
+## Sample Code
+
+*Dumps*
+
+from jsonapi import dumps
+
+complex_number = 3 + 4j
+json_string = dumps(complex_numer)
+print(json_string) // Output: '[3.0, 4.0]'
